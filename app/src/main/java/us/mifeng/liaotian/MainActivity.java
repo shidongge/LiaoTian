@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (RongIM.getInstance()!=null){
-                    RongIM.getInstance().startPrivateChat(MainActivity.this,"20000","呵呵哒");
+                    RongIM.getInstance().startPrivateChat(MainActivity.this,"10086","呵呵哒");
                 }
             }
         });

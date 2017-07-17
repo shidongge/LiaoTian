@@ -15,7 +15,10 @@ import io.rong.imlib.RongIMClient;
 public class MyApplication extends Application {
     //{"code":200,"userId":"10000","token":"RwGEWDvq+Q3G9NlykB2bwOCjDzwCQ7LKLVF25snrMWsoXwkZcCsyRuXbjCT1wLBjouP7kO94b54bf/52MSSKNw=="}
     //{"code":200,"userId":"10086","token":"Y9Au5NK6VaKk6Z4BV6aaucqTUertap58pXdG8Xbrv6GLONjohvtFl/ogMXqJWwop5jLppIOFdHGRMzmVAvYUCQ=="}
+
+    //如果这里的token值选第一个 ，那么在mainActivity里面就要写第二个userID 反之选第二个一样
     private String token1 = "RwGEWDvq+Q3G9NlykB2bwOCjDzwCQ7LKLVF25snrMWsoXwkZcCsyRuXbjCT1wLBjouP7kO94b54bf/52MSSKNw==";
+    private String token2 = "Y9Au5NK6VaKk6Z4BV6aaucqTUertap58pXdG8Xbrv6GLONjohvtFl/ogMXqJWwop5jLppIOFdHGRMzmVAvYUCQ==";
     private static final String TAG = "MyApplication";
     @Override
     public void onCreate() {
